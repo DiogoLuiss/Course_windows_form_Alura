@@ -30,3 +30,7 @@ C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Release\FirstProjectForm.UC_Form.Form_ValidadePassword_UC.resources
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Release\FirstProjectForm.UC_Form.Form_ValidateCpf2_UC.resources
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Release\FirstProjectForm.UC_Form.Form_ValidateCpf_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Release\FirstProjectForm.UC_Form.Form_RegisterClient_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Release\Newtonsoft.Json.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Release\FirstProjectForm.Form_FindAllClients.resources

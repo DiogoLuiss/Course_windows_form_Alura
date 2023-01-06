@@ -4,3 +4,6 @@ C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLib
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\obj\Release\CourseWindowsFormsLibrarys.csproj.CoreCompileInputs.cache
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\obj\Release\CourseWindowsFormsLibrarys.dll
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\obj\Release\CourseWindowsFormsLibrarys.pdb
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\bin\Release\Newtonsoft.Json.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\obj\Release\CourseWindowsFormsLibrarys.csproj.CopyComplete

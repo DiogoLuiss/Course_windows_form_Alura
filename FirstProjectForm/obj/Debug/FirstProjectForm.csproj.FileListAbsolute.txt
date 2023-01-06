@@ -30,3 +30,7 @@ C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.form_Question.resources
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_FileImg_UC.resources
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Login.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_RegisterClient_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_FindAllClients.resources

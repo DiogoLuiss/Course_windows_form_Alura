@@ -39,7 +39,9 @@
     <ApplicationIcon>Assets\Frm_Principal.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web.Extensions" />
@@ -59,6 +61,12 @@
     </Compile>
     <Compile Include="Form\Form_Login.Designer.cs">
       <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Form_FindAllClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Form_FindAllClients.Designer.cs">
+      <DependentUpon>Form_FindAllClients.cs</DependentUpon>
     </Compile>
     <Compile Include="Form_Question.cs">
       <SubType>Form</SubType>
@@ -152,6 +160,12 @@
     <Compile Include="UC_Form\Form_Masked_UC.Designer.cs">
       <DependentUpon>Form_Masked_UC.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_RegisterClient_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form_RegisterClient_UC.Designer.cs">
+      <DependentUpon>Form_RegisterClient_UC.cs</DependentUpon>
+    </Compile>
     <Compile Include="UC_Form\Form_ValidadePassword_UC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -170,6 +184,9 @@
     <Compile Include="UC_Form\Form_ValidateCpf_UC.Designer.cs">
       <DependentUpon>Form_ValidateCpf_UC.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Form\Form_FindAllClients.resx">
+      <DependentUpon>Form_FindAllClients.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\Form_Login.resx">
       <DependentUpon>Form_Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -228,6 +245,9 @@
     <EmbeddedResource Include="UC_Form\Form_Masked_UC.resx">
       <DependentUpon>Form_Masked_UC.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_RegisterClient_UC.resx">
+      <DependentUpon>Form_RegisterClient_UC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UC_Form\Form_ValidadePassword_UC.resx">
       <DependentUpon>Form_ValidadePassword_UC.cs</DependentUpon>
     </EmbeddedResource>
@@ -252,6 +272,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\ask.ico" />
+    <Content Include="Assets\Cadastros.png" />
+    <Content Include="Assets\ExcluirBarra.png" />
     <Content Include="Assets\Frm_DemonstracaoKey.ico" />
     <Content Include="Assets\Frm_DemonstracaoKey.png" />
     <Content Include="Assets\Frm_HelloWorld.ico" />
@@ -265,6 +287,9 @@
     <Content Include="Assets\Frm_ValidaCPF2.png" />
     <Content Include="Assets\Frm_ValidaSenha.ico" />
     <Content Include="Assets\Frm_ValidaSenha.png" />
+    <Content Include="Assets\LimparBarra.png" />
+    <Content Include="Assets\money.png" />
+    <Content Include="Assets\user.png" />
     <None Include="Assets\key.png" />
     <None Include="Resources\ask.png" />
   </ItemGroup>
@@ -273,6 +298,9 @@
       <Project>{0e6362b3-3fac-4651-bce9-6c1b228a282d}</Project>
       <Name>CourseWindowsFormsLibrarys</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Form_Course3\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

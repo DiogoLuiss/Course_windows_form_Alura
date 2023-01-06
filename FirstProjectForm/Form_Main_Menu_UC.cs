@@ -21,6 +21,7 @@ namespace FirstProjectForm
         int Form_ValidateCpf_IdName = 0;
         int Form_ValidateCpf2_IdName = 0;
         int Form_FileImg_UC_IdName = 0;
+        int Form_RegisterClient_UC_IdName = 0;
         public Form_Main_Menu_UC()
         {
             InitializeComponent();
@@ -28,6 +29,7 @@ namespace FirstProjectForm
             DeletarAbaToolStripMenuItem.Enabled = false;
             abrirImagemToolStripMenuItem.Enabled = false;
             desconectarToolStripMenuItem.Enabled = false;
+            RegisterToolStripMenuItem.Enabled = false;
         }
 
         private void DemonstraçãoKeyToolStripMenuItem_Click(object sender, EventArgs e)
@@ -133,7 +135,7 @@ namespace FirstProjectForm
         {
             if (TabControl_Aplications.SelectedTab != null)
             {
-                TabControl_Aplications.TabPages.Remove(TabControl_Aplications.SelectedTab);
+                deleteTabs(TabControl_Aplications.SelectedTab);
             }
 
         }
@@ -186,6 +188,7 @@ namespace FirstProjectForm
                     abrirImagemToolStripMenuItem.Enabled = true;
                     entrarToolStripMenuItem.Enabled = false;
                     desconectarToolStripMenuItem.Enabled = true;
+                    RegisterToolStripMenuItem.Enabled = true;
 
                     MessageBox.Show("Bem vindo " + Form_Login.Login + "!", "Mensagem de authenticação", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -200,6 +203,19 @@ namespace FirstProjectForm
 
         }
 
+
+        void deleteTabs(TabPage TB)
+        {
+
+            if (TB.Name == "Cadastro de clientes")
+            {
+                Form_RegisterClient_UC_IdName = 0;
+                RegisterToolStripMenuItem.Enabled = true;
+            }
+
+            TabControl_Aplications.TabPages.Remove(TB);
+        }
+
         private void desconectarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form_Question Form_Question = new Form_Question("ask", "Você deseja mesmo sair?");
@@ -210,7 +226,7 @@ namespace FirstProjectForm
 
                 while (TabControl_Aplications.TabPages.Count != 0)
                 {
-                    TabControl_Aplications.TabPages.Remove(TabControl_Aplications.TabPages[0]);
+                    deleteTabs(TabControl_Aplications.TabPages[0]);
 
                 }
 
@@ -224,5 +240,132 @@ namespace FirstProjectForm
             }
         }
 
+        private void TabControl_Aplications_MouseDown(object sender, MouseEventArgs e)
+        {
+
+            if (e.Button == System.Windows.Forms.MouseButtons.Right)
+            {
+
+                var ContextMenu = new ContextMenuStrip();
+
+                ToolStripMenuItem vToolTip1 = GenerateItemMenu("Apagar todos menos essa", "DeleteAll");
+                ToolStripMenuItem vToolTip2 = GenerateItemMenu("Apagar esse item", "DeleteTab");
+                ToolStripMenuItem vToolTip3 = GenerateItemMenu("Apagar o item da Direita", "DeleteRight");
+                ToolStripMenuItem vToolTip4 = GenerateItemMenu("Apagar o item da esquerda", "DeleteLeft");
+
+                ContextMenu.Items.Add(vToolTip1);
+                ContextMenu.Items.Add(vToolTip2);
+                ContextMenu.Items.Add(vToolTip3);
+                ContextMenu.Items.Add(vToolTip4);
+                ContextMenu.Show(this, new Point(e.X, e.Y));
+                vToolTip1.Click += new System.EventHandler(vToolTip1_Click);
+                vToolTip2.Click += new System.EventHandler(vToolTip2_Click);
+                vToolTip3.Click += new System.EventHandler(vToolTip3_Click);
+                vToolTip4.Click += new System.EventHandler(vToolTip4_Click);
+            }
+
+            ToolStripMenuItem GenerateItemMenu(string text, string imageName)
+            {
+
+                ToolStripMenuItem vToolTip = new ToolStripMenuItem();
+
+                var MyImage = (System.Drawing.Image)global::FirstProjectForm.Properties.Resources.ResourceManager.GetObject(imageName);
+
+                vToolTip.Text = text;
+                vToolTip.Image = MyImage;
+
+
+                return vToolTip;
+            }
+
+ 
+
+            void deleteTabRight()
+            {
+
+                for (int i = TabControl_Aplications.TabCount - 1; i > TabControl_Aplications.SelectedIndex; i--)
+                {
+                    deleteTabs(TabControl_Aplications.TabPages[i]);
+                }
+
+            }
+
+
+            void deleteTabLeft()
+            {
+
+                for (int i = TabControl_Aplications.SelectedIndex - 1; i >= 0; i--)
+                {
+                    deleteTabs(TabControl_Aplications.TabPages[i]);
+                }
+
+
+            }
+
+
+            void vToolTip1_Click(object sender1, EventArgs e1)
+            {
+                if (TabControl_Aplications.SelectedTab != null)
+                {
+                    deleteTabLeft();
+                    deleteTabRight();
+                }
+
+            }
+            void vToolTip2_Click(object sender1, EventArgs e1)
+            {
+                if (TabControl_Aplications.SelectedTab != null)
+                {
+                    deleteTabs(TabControl_Aplications.SelectedTab);
+                }
+
+      
+            }
+            void vToolTip3_Click(object sender1, EventArgs e1)
+            {
+                if (TabControl_Aplications.SelectedTab != null)
+                {
+                    deleteTabRight();
+                } 
+
+            }
+            void vToolTip4_Click(object sender1, EventArgs e1)
+            {
+
+                if (TabControl_Aplications.SelectedTab != null)
+                {
+                    deleteTabLeft();
+                }
+
+   
+
+            }
+        }
+
+        private void ClientsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Form_RegisterClient_UC Form_RegisterClient_UC = new Form_RegisterClient_UC();
+          
+            if (Form_RegisterClient_UC_IdName == 0)
+            {
+              
+                Form_RegisterClient_UC.Dock = DockStyle.Fill;
+
+                TabPage TablePage = new TabPage();
+
+                TablePage.Name = "Cadastro de clientes";
+                TablePage.Text = "Cadastro de clientes";
+                TablePage.ImageIndex = 7;
+                TablePage.Controls.Add(Form_RegisterClient_UC);
+                TabControl_Aplications.TabPages.Add(TablePage);
+                Form_RegisterClient_UC_IdName++;
+                RegisterToolStripMenuItem.Enabled = false;
+            }
+       
+
+          
+    
+        }
     }
 }
