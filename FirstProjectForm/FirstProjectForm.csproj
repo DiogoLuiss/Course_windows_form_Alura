@@ -35,6 +35,9 @@
   <PropertyGroup>
     <StartupObject>FirstProjectForm.Program</StartupObject>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Assets\Frm_Principal.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -51,35 +54,166 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form_PasswordValidation.cs">
+    <Compile Include="Form\Form_Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_PasswordValidation.Designer.cs">
+    <Compile Include="Form\Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Question.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Question.Designer.cs">
+      <DependentUpon>Form_Question.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Form\Form_DemonstrationKey_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Form\Form_DemonstrationKey_UC.Designer.cs">
+      <DependentUpon>Form_DemonstrationKey_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Form\Form_FileImg_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Form\Form_FileImg_UC.Designer.cs">
+      <DependentUpon>Form_FileImg_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Form\Form_HelloWorld_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Form\Form_HelloWorld_UC.Designer.cs">
+      <DependentUpon>Form_HelloWorld_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main_Menu.Designer.cs">
+      <DependentUpon>Form_Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main.Designer.cs">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Form_Masked.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Form_Masked.Designer.cs">
+      <DependentUpon>Form_Masked.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Form_PasswordValidation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Form_PasswordValidation.Designer.cs">
       <DependentUpon>Form_PasswordValidation.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_DemonstracaoKey.cs">
+    <Compile Include="Form\Form_DemonstracaoKey.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_DemonstracaoKey.Designer.cs">
+    <Compile Include="Form\Form_DemonstracaoKey.Designer.cs">
       <DependentUpon>Form_DemonstracaoKey.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form_HelloWorld.cs">
+    <Compile Include="Form\Form_HelloWorld.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form_HelloWorld.Designer.cs">
+    <Compile Include="Form\Form_HelloWorld.Designer.cs">
       <DependentUpon>Form_HelloWorld.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Form_ValidateCpf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Form_ValidateCpf.Designer.cs">
+      <DependentUpon>Form_ValidateCpf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\Form_ValidateCpf2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\Form_ValidateCpf2.Designer.cs">
+      <DependentUpon>Form_ValidateCpf2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main_Menu_MDI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main_Menu_MDI.Designer.cs">
+      <DependentUpon>Form_Main_Menu_MDI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Main_Menu_UC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Main_Menu_UC.Designer.cs">
+      <DependentUpon>Form_Main_Menu_UC.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Utils\ChecaForcaSenha.cs" />
-    <EmbeddedResource Include="Form_PasswordValidation.resx">
+    <Compile Include="UC_Form\Form_Masked_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Form\Form_Masked_UC.Designer.cs">
+      <DependentUpon>Form_Masked_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Form\Form_ValidadePassword_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Form\Form_ValidadePassword_UC.Designer.cs">
+      <DependentUpon>Form_ValidadePassword_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Form\Form_ValidateCpf2_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Form\Form_ValidateCpf2_UC.Designer.cs">
+      <DependentUpon>Form_ValidateCpf2_UC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UC_Form\Form_ValidateCpf_UC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UC_Form\Form_ValidateCpf_UC.Designer.cs">
+      <DependentUpon>Form_ValidateCpf_UC.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form\Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Question.resx">
+      <DependentUpon>Form_Question.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Form\Form_DemonstrationKey_UC.resx">
+      <DependentUpon>Form_DemonstrationKey_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Form\Form_FileImg_UC.resx">
+      <DependentUpon>Form_FileImg_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Form\Form_HelloWorld_UC.resx">
+      <DependentUpon>Form_HelloWorld_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Main_Menu.resx">
+      <DependentUpon>Form_Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Main.resx">
+      <DependentUpon>Form_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Form_Masked.resx">
+      <DependentUpon>Form_Masked.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Form_PasswordValidation.resx">
       <DependentUpon>Form_PasswordValidation.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_DemonstracaoKey.resx">
+    <EmbeddedResource Include="Form\Form_DemonstracaoKey.resx">
       <DependentUpon>Form_DemonstracaoKey.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form_HelloWorld.resx">
+    <EmbeddedResource Include="Form\Form_HelloWorld.resx">
       <DependentUpon>Form_HelloWorld.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Form_ValidateCpf.resx">
+      <DependentUpon>Form_ValidateCpf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\Form_ValidateCpf2.resx">
+      <DependentUpon>Form_ValidateCpf2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Main_Menu_MDI.resx">
+      <DependentUpon>Form_Main_Menu_MDI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Main_Menu_UC.resx">
+      <DependentUpon>Form_Main_Menu_UC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -89,7 +223,20 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UC_Form\Form_Masked_UC.resx">
+      <DependentUpon>Form_Masked_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Form\Form_ValidadePassword_UC.resx">
+      <DependentUpon>Form_ValidadePassword_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Form\Form_ValidateCpf2_UC.resx">
+      <DependentUpon>Form_ValidateCpf2_UC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UC_Form\Form_ValidateCpf_UC.resx">
+      <DependentUpon>Form_ValidateCpf_UC.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -102,6 +249,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\ask.ico" />
+    <Content Include="Assets\Frm_DemonstracaoKey.ico" />
+    <Content Include="Assets\Frm_DemonstracaoKey.png" />
+    <Content Include="Assets\Frm_HelloWorld.ico" />
+    <Content Include="Assets\Frm_HelloWorld.png" />
+    <Content Include="Assets\Frm_Mascara.ico" />
+    <Content Include="Assets\Frm_Mascara.png" />
+    <Content Include="Assets\Frm_Principal.ico" />
+    <Content Include="Assets\Frm_ValidaCPF.ico" />
+    <Content Include="Assets\Frm_ValidaCPF.png" />
+    <Content Include="Assets\Frm_ValidaCPF2.ico" />
+    <Content Include="Assets\Frm_ValidaCPF2.png" />
+    <Content Include="Assets\Frm_ValidaSenha.ico" />
+    <Content Include="Assets\Frm_ValidaSenha.png" />
+    <None Include="Assets\key.png" />
+    <None Include="Resources\ask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CourseWindowsFormsLibrarys\CourseWindowsFormsLibrarys.csproj">
+      <Project>{0e6362b3-3fac-4651-bce9-6c1b228a282d}</Project>
+      <Name>CourseWindowsFormsLibrarys</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

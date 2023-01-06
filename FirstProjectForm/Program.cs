@@ -16,7 +16,7 @@ namespace FirstProjectForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_PasswordValidation());
+            Application.Run(new Form_Main_Menu_UC());
         }
     }
 }

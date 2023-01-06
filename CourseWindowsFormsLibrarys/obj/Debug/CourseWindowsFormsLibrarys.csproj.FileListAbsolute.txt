@@ -1,0 +1,6 @@
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\bin\Debug\CourseWindowsFormsLibrarys.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\bin\Debug\CourseWindowsFormsLibrarys.pdb
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\obj\Debug\CourseWindowsFormsLibrarys.csproj.AssemblyReference.cache
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\obj\Debug\CourseWindowsFormsLibrarys.csproj.CoreCompileInputs.cache
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\obj\Debug\CourseWindowsFormsLibrarys.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\obj\Debug\CourseWindowsFormsLibrarys.pdb
