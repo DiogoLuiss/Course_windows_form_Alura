@@ -1,0 +1,13 @@
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\FirstProjectForm.exe.config
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\FirstProjectForm.exe
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\FirstProjectForm.pdb
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.AssemblyReference.cache
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Properties.Resources.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.GenerateResource.cache
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.CoreCompileInputs.cache
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.exe
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.pdb
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_HelloWorld.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_DemonstracaoKey.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_PasswordValidation.resources
