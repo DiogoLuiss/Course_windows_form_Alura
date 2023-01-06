@@ -7,3 +7,6 @@ C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLib
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\obj\Debug\CourseWindowsFormsLibrarys.csproj.CopyComplete
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\bin\Debug\Database\Binder.mdf
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\bin\Debug\Database\Binder_log.ldf
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\CourseWindowsFormsLibrarys\bin\Debug\CourseWindowsFormsLibrarys.dll.config

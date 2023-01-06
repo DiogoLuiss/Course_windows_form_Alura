@@ -1,4 +1,5 @@
 ﻿using CourseWindowsFormsLibrarys;
+using CourseWindowsFormsLibrarys.Database;
 using FirstProjectForm.UC_Form;
 using System;
 using System.Collections.Generic;
@@ -366,6 +367,23 @@ namespace FirstProjectForm
 
           
     
+        }
+
+        private void windowsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //BinderDB BinderDB = new BinderDB("Teste");
+                //BinderDB.InsertClient();
+                //MessageBox.Show(BinderDB.message, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            catch (Exception Error)
+            {
+                MessageBox.Show(Error.Message, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+
         }
     }
 }

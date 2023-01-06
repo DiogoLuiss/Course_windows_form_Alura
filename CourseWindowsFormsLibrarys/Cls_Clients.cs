@@ -131,39 +131,54 @@ namespace CourseWindowsFormsLibrarys
             return JsonConvert.SerializeObject(ClientClass);
         }
 
-        public void AddNewClientBinder(string Connection, Unit Client)
+        public void AddNewClientBinder(Unit Client)
         {
+
+            //Binder BinderConnection = new Binder(Connection);
             var ClientJson = SerializedClassUnit(Client);
-            Binder BinderConnection = new Binder(Connection);
-            if (BinderConnection.status)
+            BinderDB BinderDB = new BinderDB("Clients_TB");
+
+            if (BinderDB.status)
             {
-                BinderConnection.AddNewClient(Client.Id, ClientJson);
 
-                if (BinderConnection.status)
+                var ClientInfo = BinderDB.FindClient(Client.Id);
+
+                if (ClientInfo == "")
                 {
+                    BinderDB.InsertClient(Client.Id, ClientJson);
 
-                    MessageBox.Show(BinderConnection.message, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (BinderDB.status)
+                    {
+
+                        MessageBox.Show(BinderDB.message, "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        throw new Exception(BinderDB.message);
+                    }
                 }
                 else
                 {
-                    throw new Exception(BinderConnection.message);
+                    throw new Exception("Erro: Cliente ja cadastrado no sistema!!");
+
                 }
 
             }
 
-
         }
 
-        public Unit GetClientBinder(string IdClient, string Connection, bool FuncDelete = false)
+        public Unit GetClientBinder(string IdClient, bool FuncDelete = false)
         {
 
-            Binder BinderConnection = new Binder(Connection);
+            //Binder BinderConnection = new Binder(Connection);
 
-            if (BinderConnection.status)
+            BinderDB BinderDB = new BinderDB("Clients_TB");
+
+            if (BinderDB.status)
             {
-                var ClientInfo = BinderConnection.FindClient(IdClient);
+                var ClientInfo = BinderDB.FindClient(IdClient);
 
-                if (BinderConnection.status)
+                if (BinderDB.status)
                 {
 
                     var ClientClass = DesSerializedClassUnit(ClientInfo);
@@ -178,25 +193,26 @@ namespace CourseWindowsFormsLibrarys
                 }
                 else
                 {
-                    throw new Exception(BinderConnection.message);
+                    throw new Exception(BinderDB.message);
                 }
             }
             else
             {
-                throw new Exception(BinderConnection.message);
+                throw new Exception(BinderDB.message);
             }
         }
 
-        public void UpdateClientBinder(Unit Client, string Connection)
+        public void UpdateClientBinder(Unit Client)
         {
-            Binder BinderConnection = new Binder(Connection);
+            //Binder BinderConnection = new Binder(Connection);
+            BinderDB BinderDB = new BinderDB("Clients_TB");
 
-            if (BinderConnection.status)
+            if (BinderDB.status)
             {
-                string ClientJson = Cls_Clients.SerializedClassUnit(Client);
+                string ClientJson = SerializedClassUnit(Client);
 
 
-                BinderConnection.UpdateClient(Client.Id, ClientJson);
+                BinderDB.UpdateClient(Client.Id, ClientJson);
 
                 MessageBox.Show("Cliente Atualizado com sucesso!!", "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
@@ -204,38 +220,44 @@ namespace CourseWindowsFormsLibrarys
 
         }
 
-        public void DeleteClientBinder(string Connection, string IdClient)
+        public void DeleteClientBinder(string IdClient)
         {
-            Binder BinderConnection = new Binder(Connection);
+            //Binder BinderConnection = new Binder(Connection);
 
-            if (BinderConnection.status)
+            BinderDB BinderDB = new BinderDB("Clients_TB");
+
+            if (BinderDB.status)
             {
-                BinderConnection.DeleteClient(IdClient);
 
-                if (BinderConnection.status)
+                BinderDB.DeleteClient(IdClient);
+                //BinderConnection.DeleteClient(IdClient);
+
+                if (BinderDB.status)
                 {
                     MessageBox.Show("Cliente excluido com sucesso!!", "ByteBank", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    throw new Exception(BinderConnection.message);
+                    throw new Exception(BinderDB.message);
                 }
             }
             else
             {
-                throw new Exception(BinderConnection.message);
+                throw new Exception(BinderDB.message);
             }
         }
 
         public List<List<string>> GetAllClientBinders(string Connection)
         {
-            Binder BinderConnection = new Binder("C:\\Users\\Administ\\Documents\\ProjetocSharp\\Fichario");
+            //Binder BinderConnection = new Binder("C:\\Users\\Administ\\Documents\\ProjetocSharp\\Fichario");
 
-            if (BinderConnection.status)
+            BinderDB BinderDB = new BinderDB("Clients_TB");
+
+            if (BinderDB.status)
             {
-                var ListClients = BinderConnection.FindAllClient();
+                var ListClients = BinderDB.FindAllClients();
 
-                if (BinderConnection.status)
+                if (BinderDB.status)
                 {
 
                     List<List<string>> Clients = new List<List<string>>();
@@ -251,13 +273,13 @@ namespace CourseWindowsFormsLibrarys
                 }
                 else
                 {
-                    throw new Exception(BinderConnection.message);
+                    throw new Exception(BinderDB.message);
                 }
 
             }
             else
             {
-                throw new Exception(BinderConnection.message);
+                throw new Exception(BinderDB.message);
             }
 
         }

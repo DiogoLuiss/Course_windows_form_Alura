@@ -107,8 +107,9 @@ namespace FirstProjectForm.UC_Form
                 var Client = ReadForm();
 
                 Cls_Clients Func = new Cls_Clients();
+                //
 
-                Func.AddNewClientBinder("C:\\Users\\Administ\\Documents\\ProjetocSharp\\Fichario", Client);
+                Func.AddNewClientBinder(Client);
 
             }
             catch (ValidationException Error)
@@ -132,7 +133,7 @@ namespace FirstProjectForm.UC_Form
 
                 Cls_Clients Func = new Cls_Clients();
 
-                var ClientClass = Func.GetClientBinder(TextBox_Code.Text, "C:\\Users\\Administ\\Documents\\ProjetocSharp\\Fichario");
+                var ClientClass = Func.GetClientBinder(TextBox_Code.Text);
 
                 WriteForm(ClientClass);
 
@@ -149,19 +150,29 @@ namespace FirstProjectForm.UC_Form
 
             try
             {
+
+                Cls_Clients Func = new Cls_Clients();
+
                 Validade_Field_Code(TextBox_Code.Text);
 
                 var Client = ReadForm();
 
-                Form_Question Form_Question = new Form_Question("ask", "Você deseja mesmo atualizar o usuario??");
 
-                Form_Question.ShowDialog();
 
-                if (Form_Question.DialogResult == DialogResult.Yes)
+                var ClientInfo = Func.GetClientBinder(TextBox_Code.Text, true);
+
+                if (ClientInfo.Id != "")
                 {
-                    Cls_Clients Func = new Cls_Clients();
 
-                    Func.UpdateClientBinder(Client, "C:\\Users\\Administ\\Documents\\ProjetocSharp\\Fichario");
+                    Form_Question Form_Question = new Form_Question("ask", "Você deseja mesmo atualizar o usuario??");
+
+                    Form_Question.ShowDialog();
+
+                    if (Form_Question.DialogResult == DialogResult.Yes)
+                    {
+                        Func.UpdateClientBinder(Client);
+                    }
+
                 }
 
             }
@@ -189,7 +200,7 @@ namespace FirstProjectForm.UC_Form
 
                 Cls_Clients Func = new Cls_Clients();
 
-                var ClientInfo = Func.GetClientBinder(TextBox_Code.Text, "C:\\Users\\Administ\\Documents\\ProjetocSharp\\Fichario", true);
+                var ClientInfo = Func.GetClientBinder(TextBox_Code.Text, true);
 
                 WriteForm(ClientInfo);
 
@@ -199,7 +210,7 @@ namespace FirstProjectForm.UC_Form
 
                 if (Form_Question.DialogResult == DialogResult.Yes)
                 {
-                    Func.DeleteClientBinder("C:\\Users\\Administ\\Documents\\ProjetocSharp\\Fichario", ClientInfo.Id);
+                    Func.DeleteClientBinder(ClientInfo.Id);
                     CleamForm();
                 }
 
@@ -432,7 +443,7 @@ namespace FirstProjectForm.UC_Form
 
                 if (Form_FindAllClients.DialogResult == DialogResult.OK)
                 {
-                    var ClientClass = Func.GetClientBinder(Form_FindAllClients.IdSelect, "C:\\Users\\Administ\\Documents\\ProjetocSharp\\Fichario");
+                    var ClientClass = Func.GetClientBinder(Form_FindAllClients.IdSelect);
                     WriteForm(ClientClass);
                 }
             }
