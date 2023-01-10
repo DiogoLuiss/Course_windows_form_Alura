@@ -1,0 +1,103 @@
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\FirstProjectForm.exe.config
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\FirstProjectForm.exe
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\FirstProjectForm.pdb
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.AssemblyReference.cache
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Properties.Resources.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.GenerateResource.cache
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.CoreCompileInputs.cache
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.exe
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.pdb
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_HelloWorld.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_DemonstracaoKey.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_PasswordValidation.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Masked.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_ValidateCpf.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_ValidateCpf2.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Main.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\CourseWindowsFormsLibrarys.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\CourseWindowsFormsLibrarys.pdb
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.CopyComplete
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Main_Menu.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Main_Menu_MDI.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_HelloWorld_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Main_Menu_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_DemonstrationKey_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_Masked_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_ValidadePassword_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_ValidateCpf_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_ValidateCpf2_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.form_Question.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_FileImg_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Login.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_RegisterClient_UC.resources
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\obj\Debug\FirstProjectForm.Form_FindAllClients.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\bin\Debug\FirstProjectForm.exe.config
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\bin\Debug\FirstProjectForm.exe
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\bin\Debug\FirstProjectForm.pdb
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\bin\Debug\CourseWindowsFormsLibrarys.dll
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\bin\Debug\CourseWindowsFormsLibrarys.pdb
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.AssemblyReference.cache
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_FindAllClients.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Login.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Question.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_DemonstrationKey_UC.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_FileImg_UC.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_HelloWorld_UC.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Main_Menu.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Main.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Masked.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_PasswordValidation.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_DemonstracaoKey.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_HelloWorld.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_ValidateCpf.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_ValidateCpf2.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Main_Menu_MDI.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Form_Main_Menu_UC.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.Properties.Resources.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_Masked_UC.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_RegisterClient_UC.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_ValidadePassword_UC.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_ValidateCpf2_UC.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.UC_Form.Form_ValidateCpf_UC.resources
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.GenerateResource.cache
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.CoreCompileInputs.cache
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.csproj.CopyComplete
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.exe
+C:\Users\Administ\Desktop\Teste\FirstProjectForm\obj\Debug\FirstProjectForm.pdb
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Database\Binder.mdf
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Database\Binder_log.ldf
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\CourseWindowsFormsLibrarys.dll.config
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Npgsql.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Memory.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Microsoft.Bcl.HashCode.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Threading.Channels.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Text.Json.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Buffers.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.ValueTuple.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Npgsql.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Memory.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Microsoft.Bcl.HashCode.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Threading.Channels.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Text.Json.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Buffers.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.ValueTuple.xml
+C:\Users\Administ\Desktop\Curso Csharp\WindowsFormProjects\FirstProjectForm\bin\Debug\System.Text.Encodings.Web.xml
